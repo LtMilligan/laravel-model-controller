@@ -6,8 +6,9 @@
             </div>
             <div class="col-12">
                 <ul class="list-unstyled m-0 d-flex justify-content-center">
-                    <li class="p-3"><a class="nav-link" href="#">Home</a></li>
-                    <li class="p-3"><a class="nav-link" href="#">Movies</a></li>
+                    <li class="p-3"><a class="nav-link" href="{{ route('homepage') }}">Home</a></li>
+                    <li class="p-3"><a class="nav-link" href="{{ route('movies_show') }}">Movies</a></li>
+                    <li class="p-3"><a class="nav-link" href="{{ route('contacts') }}">Contacts</a></li>
                 </ul>
             </div>
         </div>
